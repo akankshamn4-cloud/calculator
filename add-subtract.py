@@ -1,10 +1,12 @@
-# Addition and Subtraction of two numbers
 
-a = float(input("Enter first number: "))
-b = float(input("Enter second number: "))
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
 
-addition = a + b
-subtraction = a - b
+print("Addition =", a + b)
+print("Subtraction =", a - b)
+print("Multiplication =", a * b)
 
-print("Addition =", addition)
-print("Subtraction =", subtraction)
+if b != 0:
+    print("Division =", a / b)
+else:
+    print("Division not possible")
